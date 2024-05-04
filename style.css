@@ -243,6 +243,44 @@ strong {
     transform: scale(1.2);
 }
 
+/* Contact */
+#contact {
+    margin-top: 80px;
+    text-align: center;
+    background: #E9F9FF;
+    padding: 60px;
+    border-radius: 20px;
+
+}
+
+.contact__info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__info h3 {
+    margin: 40px 0px;
+    display: inline-block;
+    color: #B4B2C5;
+}
+
+.contact__info .fa {
+    margin-right: 30px;
+    font-size: 30px;
+    color: #34A1CD;
+    margin-bottom: 10px;
+}
+
+#contact .section-heading-2 {
+    font-size: 36px;
+}
+
+#contact .section-heading-1 {
+    margin-top: 20px;
+}
+
 /* 2xl */
 @media (max-width: 1536px) {}
 
@@ -265,6 +303,14 @@ strong {
 
 /* md */
 @media (max-width: 768px) {
+    .section-heading-1 {
+        font-size: 15px;
+    }
+
+    .section-heading-2 {
+        font-size: 25px;
+
+    }
 
     #mobile {
         display: block;
@@ -317,7 +363,36 @@ strong {
         background-size: 35%;
     }
 
+    /* Testimonials */
 
+    /* Contact */
+    #contact {
+        margin-top: 40px;
+        padding: 40px;
+
+    }
+
+    .contact__info h3 {
+        font-size: 18px;
+    }
+
+    .contact__info .fa {
+        margin-right: 20px;
+    }
+
+    #contact .section-heading-2 {
+        font-size: 30px;
+    }
+
+    #contact .section-heading-1 {
+        margin-top: 20px;
+    }
+
+    /* Skills */
+
+    #skills {
+        margin-top: 5rem;
+    }
 }
 
 /* sm */
