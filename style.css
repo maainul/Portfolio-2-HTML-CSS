@@ -193,6 +193,51 @@ strong {
     margin-right: 20px;
 }
 
+/* PORTFOLIO */
+#portfolio .section-heading-1,
+#portfolio .section-heading-2 {
+    text-align: start;
+}
+
+#portfolio .grid-wrapper {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-gap: 20px;
+}
+
+#portfolio .grid-box {
+    position: relative;
+}
+
+.hover {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 60%;
+    height: 60%;
+    background-color: #55527C;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: whitesmoke;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+}
+
+#portfolio .grid-box:hover .hover {
+    transform: scaleX(1);
+}
+
+#portfolio .highlight {
+    color: #EA4C89;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
 /* Testimonials */
 #testimonials {
     background-color: #FFF5F6;
@@ -396,6 +441,10 @@ footer p {
 
     #contact .section-heading-1 {
         margin-top: 20px;
+    }
+
+    #portfolio .grid-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     }
 
     /* Skills */
